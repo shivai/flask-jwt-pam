@@ -24,7 +24,7 @@ The output would be like this:
 
 ```
 
-Now you can access to the protected route:
+Now you can access to the protected endpoint:
 
 ```
 curl -X GET http://127.0.0.1:5000/protected -H "Content-Type: application/json" -H "Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjQ4MTI4MTAsImlhdCI6MTYyNDgxMjUxMCwibmJmIjoxNjI0ODEyNTEwLCJpZGVudGl0eSI6IjNlMGZiNWMzLTA0ZjEtNGJjNi1iMzNlLTYyMzI1NGM3MDIxNSJ9.j6qczVTbVz3dQAjDd9g0iNSLeFvxS1GXSD97tg20h60"
