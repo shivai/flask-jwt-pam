@@ -1,2 +1,3 @@
 # flask-jwt-pam
-When it comes to use JWT without hardcode the credential or store it in database, pam commence. Yes we can use OS users and let the rest to the OS!
+
+When it comes to using JWT without hardcoding the credential or storing it in a database, pam commences. Yes, we can use OS users and let the rest to the OS!
