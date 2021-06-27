@@ -12,14 +12,12 @@ $ python main.py
 Then send a curl request like this:
 
 ```
-
 curl -X POST http://127.0.0.1:5000/auth -H "Content-Type: application/json" -d '{"username": "MY_USERNAME", "password":"MY_PASSWORD"}'
 
 ```
 The output would be like this:
 
 ```
-
 {
   "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MjQ4MTI4MTAsImlhdCI6MTYyNDgxMjUxMCwibmJmIjoxNjI0ODEyNTEwLCJpZGVudGl0eSI6IjNlMGZiNWMzLTA0ZjEtNGJjNi1iMzNlLTYyMzI1NGM3MDIxNSJ9.j6qczVTbVz3dQAjDd9g0iNSLeFvxS1GXSD97tg20h60"
 }
